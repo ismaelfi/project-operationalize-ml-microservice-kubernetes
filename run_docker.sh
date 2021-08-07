@@ -4,9 +4,12 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-
-# Step 2: 
+docker build . --tag=mlproject
+# Step 2:
 # List docker images
 
-# Step 3: 
+docker image ls
+
+# Step 3:
 # Run flask app
+docker run -it --rm --name mlproject -p 8000:80 mlproject
