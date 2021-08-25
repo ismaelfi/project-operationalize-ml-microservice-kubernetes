@@ -5,11 +5,17 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+TAG=ml-project-udacity
+DOCKERUSER=ismafin
+DOCKERPATH=$DOCKERUSER/$TAG
+#IMAGEID=002f011e761b
 
-# Step 2:  
+# Step 2:
 # Authenticate & tag
-echo "Docker ID and Image: $dockerpath"
+echo "Docker ID and Image: $DOCKERPATH"
 
 # Step 3:
 # Push image to a docker repository
+docker login --username=$DOCKERUSER
+docker tag $TAG $DOCKERPATH  # or docker tag $IMAGEID $DOCKERPATH
+docker push $DOCKERPATH
