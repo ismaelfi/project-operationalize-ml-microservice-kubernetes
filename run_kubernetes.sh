@@ -21,4 +21,4 @@ sleep 90s  # wait until kubernetes pods
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/$TAG ${LOCAL_PORT}:${DOCKER_PORT}
+kubectl port-forward $TAG  ${LOCAL_PORT}:${DOCKER_PORT}
