@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-TAG=ml-project-udacity
+TAG=mlproject
 DOCKERUSER=ismafin
 DOCKERPATH=$DOCKERUSER/$TAG
 #IMAGEID=002f011e761b

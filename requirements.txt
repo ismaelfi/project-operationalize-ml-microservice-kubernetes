@@ -13,3 +13,5 @@ sklearn
 joblib
 six==1.12.0
 Werkzeug==0.16.0
+pylint
+pytest
