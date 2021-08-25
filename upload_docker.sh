@@ -8,7 +8,6 @@
 TAG=mlproject
 DOCKERUSER=ismafin
 DOCKERPATH=$DOCKERUSER/$TAG
-#IMAGEID=002f011e761b
 
 # Step 2:
 # Authenticate & tag
