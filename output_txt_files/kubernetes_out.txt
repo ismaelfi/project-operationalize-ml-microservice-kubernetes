@@ -1,3 +1,11 @@
+➜  mlproject git:(main) kubectl get pod
+NAME        READY   STATUS    RESTARTS   AGE
+mlproject   1/1     Running   0          11m
+
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
 Port: 8000
 {
   "prediction": [
