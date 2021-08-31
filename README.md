@@ -1,6 +1,3 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ifinnaoui&show_icons=true)
-
-
 [![CircleCI](https://circleci.com/gh/ismailfi/project-operationalize-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/ismailfi/project-operationalize-ml-microservice-kubernetes/tree/main)
 ## Project Overview
 
